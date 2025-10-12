@@ -42,38 +42,3 @@ int main(){
     return 0;
 }
 
-//
-// Criado em 20/06/25 por Robert L Resende
-//
-// Exemplo com diferentes formatos de leitura e escrita
-//
-
-//#include <stdio.h>
-
-//int main() {
-//    int a;
-//    double b;
-//    char palavra[100];
-//
-//    printf("Digite um numero inteiro: ");
-//    scanf("%d", &a);
-//
-//    printf("Digite um numero real: ");
-//    scanf("%lf", &b);
-//
-//    printf("Digite uma palavra: ");
-//    scanf("%s", palavra);
-//
-//    // Impressões em diferentes formatos
-//    printf("\n=== Saídas Formatadas ===\n");
-//    printf("Inteiro em decimal (%%d): %d\n", a);
-//    printf("Inteiro em octal   (%%o): %o\n", a);
-//    printf("Inteiro em hexa    (%%x): %x\n", a);
-//
-//    printf("Real em ponto fixo (%%f): %f\n", b);
-//    printf("Real em not. cient. (%%e): %e\n", b);
-//
-//    printf("Palavra digitada: %s\n", palavra);
-//
-//    return 0;
-//}
