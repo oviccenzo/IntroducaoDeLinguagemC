@@ -4,5 +4,5 @@
 #include "cstdio"
 
 int main(){
-    printf("ola");
+    
 }
