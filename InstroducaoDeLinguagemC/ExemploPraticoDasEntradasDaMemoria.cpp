@@ -11,10 +11,10 @@ int main(){
 
     printf("\n\n");
 
-    int num2;
+    double num2;
     //numero geral
     printf("Digite um numero geral: ");
-    scanf("%g",&num2);
+    scanf("%lg",&num2);
     printf("O numero geral eh: %g",num2);
 
     printf("\n\n");
@@ -37,10 +37,11 @@ int main(){
 
     //ponteiro
     int num5;
-    printf("Digite um numero ponteiro: ");
-    scanf("%p",&num5);
-    printf("O numero do ponteiro eh: %p",num5);
-
+    void *ptr;
+    printf("Digite um numero de memoria do ponteiro: ");
+    scanf("%p",&ptr);
+    printf("O numero do ponteiro eh: %p\n\n",ptr);
 
     return 0;
 }
+
