@@ -5,4 +5,9 @@
 
 int main(){
     printf("ola");
+    printf("\n");
+    int num1 = 23;
+
+    printf("O numero eh %d",num1);
+
 }
