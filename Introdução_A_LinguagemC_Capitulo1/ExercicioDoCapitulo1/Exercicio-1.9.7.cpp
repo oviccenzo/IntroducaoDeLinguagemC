@@ -11,4 +11,6 @@ int main(){
     printf("Digite um numero a e o numero b: ");
     scanf("%d %d",&a,&b);
     printf("O numero 1 eh verdadeiro ou 0 eh falso: %d",a>b);
+
+    return 0;
 }
