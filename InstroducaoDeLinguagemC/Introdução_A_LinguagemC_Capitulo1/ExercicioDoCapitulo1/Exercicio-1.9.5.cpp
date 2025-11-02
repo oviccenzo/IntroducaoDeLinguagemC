@@ -1,6 +1,9 @@
 //
 // Created by Robert L Resende on 20/06/25.
 //
+//E 1.9.5. Abaixo temos três
+// programas que divide 1 por 2.
+// Execute-os e discuta os resultados.
 #include "cstdio"
 
 void Programa1(){
