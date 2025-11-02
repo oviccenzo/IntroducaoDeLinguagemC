@@ -1,6 +1,8 @@
 //
 // Created by viccenzo on 11/7/2025
 //
+//E1.9.3. Escreva um programa que lê tês caracteres um inteiros
+//e dois doubles's e depois imprime todos eles.
 #include "cstdio"
 
 int main(){
