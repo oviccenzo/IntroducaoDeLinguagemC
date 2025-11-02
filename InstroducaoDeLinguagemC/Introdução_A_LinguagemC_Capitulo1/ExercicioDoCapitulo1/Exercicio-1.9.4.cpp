@@ -1,9 +1,15 @@
 //
-// Created by Robert L Resende on 11/07/25.
+// Created by Robert L Resende on 20/06/25.
 //
-#include "cstdio"
+//E 1.9.4. Escreva um programa que some dois double’s, 108 + 10−8. Discuta o resultado.
+
+#include <cstdio>
 
 int main(){
 
+    double a;
 
+    a = 10e+8 + 10e-8;
+
+    printf("O resultado de dois numeros elevado ao quadrado eh: %lf",a);
 }
