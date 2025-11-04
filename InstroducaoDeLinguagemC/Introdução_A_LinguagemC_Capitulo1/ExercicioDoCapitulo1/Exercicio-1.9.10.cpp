@@ -17,4 +17,7 @@ int main(){
     double a = 1 - cos(x);
     double b = 1/2*pow((sin(x/2)),2);
 
+    printf("O numero digitado: ");
+    scanf("%lf",&a);
+
 }
