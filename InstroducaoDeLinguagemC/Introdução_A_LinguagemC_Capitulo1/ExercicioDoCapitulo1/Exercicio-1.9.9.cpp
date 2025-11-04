@@ -17,9 +17,15 @@ int main(){
      double resultado2 = exp(1/u2) / 1 + exp(1/u2);
      double resultado3 = exp(1/u3) / 1 + exp(1/u3);
 
-     printf("", u1);
-     printf("", u2);
-     printf("", u3);
+     float u4 = 1, u5 = 0.01, u6 = 0.001;
+
+     printf(" %lf", u1);
+     printf(" %lf", u2);
+     printf(" %lf", u3);
+     
+     printf(" %l2.f", u4);
+     printf(" %2.f" , u5);
+     printf(" %l2.f", u6);
 
     return 0;
 }
