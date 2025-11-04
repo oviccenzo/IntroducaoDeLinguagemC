@@ -18,14 +18,18 @@ int main(){
      double resultado3 = exp(1/u3) / 1 + exp(1/u3);
 
      float u4 = 1, u5 = 0.01, u6 = 0.001;
+     
+     double resultado1 = exp(1/u4) /  1 + exp(1/u4);
+     double resultado2 = exp(1/u5) / 1 + exp(1/u5);
+     double resultado3 = exp(1/u6) / 1 + exp(1/u6);
 
      printf(" %lf", u1);
      printf(" %lf", u2);
      printf(" %lf", u3);
      
-     printf(" %l2.f", u4);
+     printf(" %2.f", u4);
      printf(" %2.f" , u5);
-     printf(" %l2.f", u6);
+     printf(" %2.f", u6);
 
     return 0;
 }
