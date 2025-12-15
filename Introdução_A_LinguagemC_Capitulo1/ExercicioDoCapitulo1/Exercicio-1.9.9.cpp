@@ -21,5 +21,14 @@ int main(){
      printf(" %lf\n ", resultado2);
      printf(" %lf\n", resultado3);
 
+	 float u4 = 1 , u5 = 0.01, u6 = 0.001;
+	 float resultado4 = exp(1/u4) / 1 + exp(1/u4);
+	 float resultado5 = exp(1/u5) / 1 + exp(1/u5);
+	 float resultado6 = exp(1/u6) / 1 + exp(1/u6);
+
+	 printf(" %.2f", resultado4);
+	 printf(" %.2f", resultado5);
+	 printf(" %.2f", resultado6);
+
     return 0;
 }
