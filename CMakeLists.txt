@@ -4,4 +4,4 @@ project(IntroducaoDeLinguagemC)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(IntroducaoDeLinguagemC main.cpp
-        Introdução_A_LinguagemC_Capitulo1/ExercicioDoCapitulo1/Exercicio-1.9.3.cpp)
+        Introdução-A-LinguagemC-Capitulo1/ExercicioDoCapitulo1/Exercicio-1.9.3.cpp)
