@@ -41,6 +41,5 @@ int main(){
     printf("O modulo de -3.2 é %f\n", fabs((-3.2)));
     printf("O modulo de -3 é %d\n", abs(-3));
 
-
     return 0;
 }
